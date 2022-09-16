@@ -271,7 +271,7 @@ public class Main {
         int h = 0;
         int j = 2;
         while (i < 10) {
-            h = j * i;
+            h = i * j;
             i ++;
             System.out.println(j + "*" + i + "=" + (j * i) + "\t");
         }
